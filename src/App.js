@@ -20,7 +20,7 @@ class App extends Component {
 <div>
         <nav class="navbar bg-info navbar-dark navbar-expand-sm fixed-top" id="Menu_item1">
                         <div class="container">
-                                  <a class="navbar-brand d-sm-inline-block" href="#myPage">Profile</a>
+                                  <a class="navbar-brand d-sm-inline-block" href="#home">Profile</a>
 
                                         <button class="navbar-toggler" type="button" 
                                             data-toggle="collapse" data-target="#myTogglerNav" 
@@ -124,7 +124,7 @@ class App extends Component {
                 </div>
                 <div className="col">
                       <div className="row ">
-                              <a href="#" className="card-link text-dark btn btn-outline-light btn-lg"><GithubIcon/></a>
+                              <a href="https://github.com/Shuraz" className="card-link text-dark btn btn-outline-light btn-lg"><GithubIcon/></a>
 
                       </div>
                       <div className="row ">Github

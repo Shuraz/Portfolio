@@ -8,6 +8,7 @@ import AboutMe from './AboutMe';
 import Home from './Home';
 import News from './components/news/News';
 import Portfolio from './components/portfolio/portfolio'
+import ImageGallary from './ImageGallary'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

@@ -23,7 +23,7 @@ export default class aboutme extends Component {
             <div className="container text-center"  id="services">
                 <div className="row">
                     <section className="col-sm-6 col-md-3">
-                    <img className="img-fluid rounded-circle figure-img mx-auto" src={ResponsiveIcon} width={150} alt="Image"/>
+                    <img className="img-fluid rounded-circle figure-img mx-auto" width="304" height="236" src={ResponsiveIcon} width={150} alt="Image"/>
                     <figcaption className="figure-caption">
                     <h4>Responsive</h4>
                     <p>UI adopting to the device screen size.</p>
@@ -31,7 +31,7 @@ export default class aboutme extends Component {
                     </section>
 
                     <section className="col-sm-6 col-md-3">
-                    <img className="img-fluid rounded-circle figure-img mx-auto" src={AppIcon} width={150} alt="Image"/>
+                    <img className="img-fluid rounded-circle figure-img mx-auto" width="304" height="236" src={AppIcon} width={150} alt="Image"/>
                     <figcaption className="figure-caption">
                     <h4>App-like feel</h4>
                     <p>It does not feel like a website, but rather an an app as much as possible.</p>           
@@ -39,7 +39,7 @@ export default class aboutme extends Component {
                     </section>
 
                     <section className="col-sm-6 col-md-3">
-                    <img className="img-fluid rounded-circle figure-img mx-auto" src={DiscoverIcon} width={150} alt="Image"/>
+                    <img className="img-fluid rounded-circle figure-img mx-auto" width="304" height="236" src={DiscoverIcon} width={150} alt="Image"/>
                     <figcaption className="figure-caption">
                     <h4>Discoverable</h4>
                     <p>Search engines and SEO optimization</p>
@@ -47,7 +47,7 @@ export default class aboutme extends Component {
                     </section>
 
                     <section className="col-sm-6 col-md-3">
-                    <img className="img-fluid rounded-circle figure-img mx-auto" src={FastIcon} width={150} alt="Image"/>
+                    <img className="img-fluid rounded-circle figure-img mx-auto" width="304" height="236" src={FastIcon} width={150} alt="Image"/>
                     <figcaption className="figure-caption">
                     <h4>Fast and Dynamic</h4>
                     <p>Fast, interactive and lighter dymanic website. </p>
@@ -67,7 +67,7 @@ export default class aboutme extends Component {
                                 <p>I'm the Software Engineer. I have more than 2 years of experience in mobile development and  web development in Nepal. Currently, I am working as Java Tutor in Charles Sturt University, Sydney, Australia. I always think of implementing mobile device in agriculture, finance and  health and for the betterment of human kind.
                                 I will make something special.</p>
                                 </figcaption>
-                                <a class="text-primary btn btn-outline-info btn-lg"  href="#portfolio" role="button">
+                                <a class="text-primary btn btn-outline-info btn-lg"  href="https://www.linkedin.com/in/mrsurajpokhrel/" role="button">
                                     My LinkedIn Profile <LinkedInIcon/> </a>
 
                                 </figure>

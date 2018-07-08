@@ -1,5 +1,187 @@
 import React from 'react';
 import text from './mystudy.json'
+import Gallery from 'react-grid-gallery';
+
+const IMAGES11 =
+[{
+        src: require('./projectImages/bb1.png'),
+        thumbnail: require('./projectImages/bb1.png'),
+        thumbnailWidth: 120,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/bb2.png'),
+        thumbnail: require('./projectImages/bb2.png'),
+        thumbnailWidth: 120,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/bb3.png'),
+        thumbnail: require('./projectImages/bb3.png'),
+        thumbnailWidth: 120,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/bb4.png'),
+        thumbnail: require('./projectImages/bb4.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/bb5.png'),
+        thumbnail: require('./projectImages/bb5.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+    src: require('./projectImages/bb6.png'),
+    thumbnail: require('./projectImages/bb6.png'),
+    thumbnailWidth: 80,
+    thumbnailHeight: 120,
+    isSelected: true,
+    caption: "After Rain (Jeshu John - designerspics.com)"
+}
+]
+
+const IMAGES22 =
+[{
+        src: require('./projectImages/aa1.png'),
+        thumbnail: require('./projectImages/aa1.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/aa2.png'),
+        thumbnail: require('./projectImages/aa2.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/aa3.png'),
+        thumbnail: require('./projectImages/aa3.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/aa4.png'),
+        thumbnail: require('./projectImages/aa4.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/aa5.png'),
+        thumbnail: require('./projectImages/aa5.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/aa6.png'),
+        thumbnail: require('./projectImages/aa6.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/aa7.png'),
+        thumbnail: require('./projectImages/aa7.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+]
+
+const IMAGES33 =
+[{
+        src: require('./projectImages/cc1.png'),
+        thumbnail: require('./projectImages/cc1.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/cc2.png'),
+        thumbnail: require('./projectImages/cc2.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/cc3.png'),
+        thumbnail: require('./projectImages/cc3.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/cc4.png'),
+        thumbnail: require('./projectImages/cc4.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/cc5.png'),
+        thumbnail: require('./projectImages/cc5.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+}
+]
+
+const IMAGES44 =
+[{
+        src: require('./projectImages/dd1.png'),
+        thumbnail: require('./projectImages/dd1.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/dd2.png'),
+        thumbnail: require('./projectImages/dd2.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+},
+{
+        src: require('./projectImages/dd3.png'),
+        thumbnail: require('./projectImages/dd3.png'),
+        thumbnailWidth: 80,
+        thumbnailHeight: 120,
+        isSelected: true,
+        caption: "After Rain (Jeshu John - designerspics.com)"
+}
+]
+
 
 export const master=(
     <div>
@@ -36,7 +218,12 @@ export const trainingA=(
     <h4>
         Mobile for Development    
     </h4>
-    {text.trainingA}
+    <dl>
+                <dt>Massive Open Online Course (MOOC) by IIT Kanpur and COL, India.</dt>
+                <dd>IImplementation of Mobile for the  development for finance, agriculture. Technology of mobile devices and their applications. </dd>
+
+             
+    </dl>
 
     </div>
 )
@@ -46,16 +233,39 @@ export const trainingB=(
         Java Programming Certificates
     
     </h4>
-    <b>Certificate In Java Programming language using Java SE6</b>
-    {text.trainingB}
+  
+    <dl>
+                <dt>Certificate Program In Java Programming language using Java SE6</dt>
+                <dd>It was awarded by ORACLE Work force Development Program. Certificate issued on September, 2012.</dd>
+                <dt>Certificate Program In Advanced Java Programming For Web Development</dt>
+                <dd>It was awarded by ORACLE Work force Development Program. Certificate issued on August 16, 2013.</dd>
+             
+    </dl>
 
     </div>
 )
 export const trainingC=(
-    <h3>
-        {text.trainingC}
-    
-    </h3>
+    <div>
+
+    <h4>
+        Lynda Certificate
+    </h4>
+    <p>
+      {text.trainingC}
+    </p>
+
+      <dl>
+                <dt>Platform and Languages:</dt>
+                <dd>Android, Firebase as Backend Service, Google map API</dd>
+                <dt>Platform and Languages:</dt>
+                <dd>Android, Firebase as Backend Service, Google map API</dd>
+                <dt>Platform and Languages:</dt>
+                <dd>Android, Firebase as Backend Service, Google map API</dd>
+                <dt>Platform and Languages:</dt>
+                <dd>Android, Firebase as Backend Service, Google map API</dd>
+    </dl>
+
+    </div>
 )
 
 export const workA=(
@@ -68,6 +278,7 @@ export const workA=(
                 <dt>Platform and Languages:</dt>
                 <dd>Android, PHP, JAVA, JSP, JavaScript, CSS, Wamp Server, QR code</dd>
             </dl>
+            <Gallery images={IMAGES11}/>
     </div>
 )
 
@@ -83,16 +294,42 @@ export const workB=(
       <dl>
                 <dt>Platform and Languages:</dt>
                 <dd>Android, Firebase as Backend Service, Google map API</dd>
-            </dl>
+    </dl>
+    <Gallery images={IMAGES22}/>
+
       </div>
 )
 export const workC=(
-    <h3>
-        {text.workC}
-    </h3>
+    <div>
+    <h4>
+       Desktop Application
+    </h4>
+    <p>
+      {text.workC}
+    </p>
+
+      <dl>
+                <dt>Platform and Languages:</dt>
+                <dd>JAVA, Wamp Server, IntelliJ IDEA</dd>
+    </dl>
+    <Gallery images={IMAGES33}/>
+
+      </div>
 )
 export const workD=(
-    <h3>
-        {text.workD}
-    </h3>
+    <div>
+    <h4>
+        Personal Profile
+    </h4>
+    <p>
+      {text.workD}
+    </p>
+
+      <dl>
+                <dt>Platform and Languages:</dt>
+                <dd>React, Redux, HTML, CSS, Bootstrap, API, JSON</dd>
+    </dl>
+    <Gallery images={IMAGES44}/>
+
+      </div>
 )

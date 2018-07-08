@@ -9,7 +9,7 @@ import {master,bachelor, highschool, trainingA, trainingB, trainingC, workA, wor
 const Works = ({ routes }) => (
   <div>
       
-        <div className="card">
+        <div className="card border-info">
           <div class="card-header text-secondary">
           <h2>My Works</h2>
           </div>
@@ -45,7 +45,7 @@ const Training = ({ routes }) => (
 
   <div>
       
-  <div className="card">
+  <div className="card border-info">
     <div class="card-header text-secondary">
     <h2>Further Training</h2> 
     </div>
@@ -78,7 +78,7 @@ const Training = ({ routes }) => (
 const Study = ({ routes }) => (
   <div>
       
-        <div className="card">
+        <div className="card border-info">
           <div class="card-header text-secondary">
           <h3>Formal Study</h3> 
           </div>
@@ -113,10 +113,8 @@ const HighSchool=()=> <div> {highschool}</div>
 const TrainingA=()=> <div>{trainingA} </div>
 const TrainingB=()=><div>{trainingB} </div>
 const TrainingC=()=> <div> {trainingC}</div>
-const WorkA=()=> <div>{workA} </div>
-const WorkB=()=> <div> {workB}
-              <Bus/>
-               </div>
+const WorkA=()=> <div>{workA}</div>
+const WorkB=()=> <div> {workB}</div>
 const WorkC=()=> <div> {workC}</div>
 const WorkD=()=> <div>{workD} </div>
 
