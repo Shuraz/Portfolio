@@ -89,7 +89,7 @@ class App extends Component {
       </div>
 
  <footer class="App-footer text-center">
-                <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+                <a class="up-arrow" href="#home" data-toggle="tooltip" title="TO TOP">
                 <h2 className="text-danger"><UpIcon/></h2>
           </a>
 
