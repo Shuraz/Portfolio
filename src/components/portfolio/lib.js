@@ -250,19 +250,17 @@ export const trainingC=(
     <h4>
         Lynda Certificate
     </h4>
-    <p>
-      {text.trainingC}
-    </p>
 
       <dl>
-                <dt>Platform and Languages:</dt>
-                <dd>Android, Firebase as Backend Service, Google map API</dd>
-                <dt>Platform and Languages:</dt>
-                <dd>Android, Firebase as Backend Service, Google map API</dd>
-                <dt>Platform and Languages:</dt>
-                <dd>Android, Firebase as Backend Service, Google map API</dd>
-                <dt>Platform and Languages:</dt>
-                <dd>Android, Firebase as Backend Service, Google map API</dd>
+               
+      <dt>HTML</dt>
+      <dt>CSS</dt>
+                <dt>ReactJS:</dt>
+                <dt>Bootstrap</dt>
+                <dt>ECMAScript 6</dt>
+                <dt>Github</dt>
+                
+                
     </dl>
 
     </div>
