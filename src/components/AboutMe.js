@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import MyPic from './mypic.png';
 import Pic from './pic.png'
+
 import ProfilePic from './profilepic.png';
 import ResponsiveIcon from './responsive.png'
 import AppIcon from './app.png'

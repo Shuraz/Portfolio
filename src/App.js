@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
-import AboutMe from './AboutMe'
-import ContactMe from './ContactMe'
+import AboutMe from './components/AboutMe'
+import ContactMe from './components/ContactMe'
 import Story from './components/story'
 import Portfolio from './components/portfolio/portfolio'
 import UpIcon from 'react-icons/lib/go/chevron-up';
@@ -10,7 +10,7 @@ import LinkedInIcon from 'react-icons/lib/fa/linkedin-square';
 import TwitterIcon from 'react-icons/lib/io/social-twitter';
 import MyEmailIcon from 'react-icons/lib/md/email';
 import GithubIcon from 'react-icons/lib/go/mark-github';
-import Home from './Home'
+import Home from './components/Home'
 import logo from './logo.svg';
 import './App.css';
 

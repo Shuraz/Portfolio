@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import DownIcon from 'react-icons/lib/ti/download';
 import CircularProgressbar from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import './App.css';
 import Pic from './pic.png';
 
 
 
-import logo from './logo.svg';
-import './App.css';
 
 class Home extends Component {
   render() {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import MyLocationIcon from 'react-icons/lib/md/location-on';
 import MyEmailIcon from 'react-icons/lib/md/email';
 //import './App.css';
