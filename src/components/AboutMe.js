@@ -60,9 +60,9 @@ export default class aboutme extends Component {
 
             <div className="container">
                 <div className="row">
-                    <div className="col col-sm-8">
+                    <div className="container col-sm-8">
                                 <figure>
-                                <img className="img-fluid rounded border border-info" src={ProfilePic} width={250} alt="Suraj Pic"/>
+                                <img className="img-fluid rounded border border-info" src={ProfilePic} width={350} alt="Suraj Pic"/>
                                 <figcaption>
                                     <h3>Who's this guy? </h3>
                                 <p>I'm the Software Engineer. I have more than 2 years of experience in mobile development and  web development in Nepal. Currently, I am working as Java Tutor in Charles Sturt University, Sydney, Australia. I always think of implementing mobile device in agriculture, finance and  health and for the betterment of human kind.
@@ -70,9 +70,7 @@ export default class aboutme extends Component {
                                 </figcaption>
                                 <a class="text-primary btn btn-outline-info btn-lg"  href="https://www.linkedin.com/in/mrsurajpokhrel/" role="button">
                                     My LinkedIn Profile <LinkedInIcon/> </a>
-
                                 </figure>
-
                     </div>
 
                     <div className="container alert alert-light col-sm-4" role="alert">
